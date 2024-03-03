@@ -1,3 +1,4 @@
 {
-    "vslilypond.midiPlayback.output": "Roland Digital Piano"
+    "vslilypond.midiPlayback.output": "Roland Digital Piano",
+    "vslilypond.midiInput.input": "Roland Digital Piano"
 }
