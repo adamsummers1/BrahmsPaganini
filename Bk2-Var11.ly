@@ -33,7 +33,7 @@ vTwo = {
   }
 }
 
-\score {
+myMusic = {
   \new PianoStaff <<
     \new Staff = "up" \with {
       \override StaffGrouper.staff-staff-spacing.padding = #10
@@ -53,12 +53,21 @@ vTwo = {
       \vTwo
     }
   >>
+}
 
+\score {
+\myMusic
 \layout {
   indent = 0
   \context {
     \Score
   }
 }
+}
+
+\score {
+  \unfoldRepeats {
+    \myMusic
+  }
 \midi {}
 }
