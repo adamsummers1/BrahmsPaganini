@@ -10,17 +10,16 @@ vOne = {
 \clef "treble"
 \key a \minor
 \time 2/4
+\partial 16 r 16
 \ottava 1 
  <a'' a'''>8 <c''' c''''> <b'' b'''> <a'' a'''>|
 <gis'' gis'''> <e'' e'''> <fis'' fis'''> <gis'' gis'''>|
 <a'' a'''> <c''' c''''> <b'' b'''> <a'' a'''>|
 <gis'' gis'''> <e'' e'''> <fis'' fis'''> <gis'' gis'''>||
 a'''16  a'' c'''' c''' b''' b'' a''' a''|
+gis''' gis'' e''' e'' fis''' fis'' gis''' gis''|
+a''' a'' c'''' c''' b''' b'' a''' a''|
 gis''' gis'' e''' e'' fis''' fis'' gis''' gis''
-a''' a'' c'''' c''' b''' b'' a''' a''
-gis''' gis'' e''' e'' fis''' fis'' gis''' gis''
-
-
 }
 
 vTwo = {
@@ -29,6 +28,7 @@ vTwo = {
 \key a \minor
 \time 2/4
 \set Staff.timeSignatureFraction = #'(3 . 8)
+\partial 16 a 16
 \scaleDurations #'(4 . 3) {
 c''8 d'' dis''|
 e'' d'' b'|
